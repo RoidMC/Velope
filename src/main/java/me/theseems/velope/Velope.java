@@ -403,7 +403,7 @@ public class Velope {
 
                     if (currentServer.isPresent() && currentServer.get().getName().equals(velopedServer.getName())) {
                         invocation.source().sendMessage(Component
-                                .text("您已连接至该服务器了 / You are already at your destination.")
+                                .text("You are already at your destination.")
                                 .color(NamedTextColor.RED));
                         return;
                     }
